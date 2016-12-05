@@ -19,7 +19,6 @@ public class UserServiceImpl implements UserService {
 	private UserMapper userMapper;
 
 	public List<User> findListPage(PageBean page) {
-		System.out.println("hello");
 		return userMapper.findListPage(page);
 	}
 

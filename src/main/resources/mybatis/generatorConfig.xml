@@ -28,7 +28,7 @@
 			/> -->
 
 		<javaModelGenerator targetPackage="com.zh.entity.user"
-			targetProject="timedTask/src/main/java">
+			targetProject="mybatisPagePlugin/src/main/java">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="true" />
 			<!-- 从数据库返回的值被清理前后的空格 -->
@@ -41,7 +41,7 @@
 		</sqlMapGenerator>
 
 		<javaClientGenerator targetPackage="com.zh.mapper.user"
-			targetProject="timedTask/src/main/java" type="XMLMAPPER">
+			targetProject="mybatisPagePlugin/src/main/java" type="XMLMAPPER">
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 

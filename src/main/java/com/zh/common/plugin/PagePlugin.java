@@ -38,7 +38,7 @@ public class PagePlugin implements Interceptor {
 
 	public Object intercept(Invocation invocation) throws Throwable {
 		// TODO Auto-generated method stub
-		System.out.println("这是插件Interceptor intercept");
+		System.out.println("这是分页插件Interceptor intercept,mybatis过滤器.");
 		// 拦截逻辑操作
 		StatementHandler statementHandler = (StatementHandler) invocation.getTarget();
 		MetaObject metaStatementHandler = SystemMetaObject.forObject(statementHandler);

@@ -5,7 +5,7 @@
 	<artifactId>mybatisPagePlugin</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>timedTask Maven Webapp</name>
+	<name>mybatisPagePlugin Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<!-- 项目属性 -->
 	<properties>
@@ -248,6 +248,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>timedTask</finalName>
+		<finalName>mybatisPagePlugin</finalName>
 	</build>
 </project>
