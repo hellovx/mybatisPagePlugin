@@ -14,7 +14,7 @@
 <title>Insert title here</title>
 <script type="text/javascript">
 function nextPage(currentPage){
-	alert(currentPage);
+	//alert(currentPage);
 	window.location.href="${path}/user/userlist.do?pageSize=2&currentPage="+currentPage;
 }
 </script>

@@ -36,7 +36,7 @@
 		</javaModelGenerator>
 
 		<sqlMapGenerator targetPackage="com.zh.mapper.user"
-			targetProject="timedTask/src/main/java">
+			targetProject="mybatisPagePlugin/src/main/java">
 			<property name="enableSubPackages" value="true" />
 		</sqlMapGenerator>
 
@@ -49,7 +49,8 @@
 			property="???" /> </table> -->
 
 		<!-- tableName:用于自动生成代码的数据库表；domainObjectName:对应于数据库表的javaBean类名 -->
-		<table schema="untodo" tableName="tb_user" domainObjectName="User"></table>
+		<table schema="untodo" tableName="tb_user" domainObjectName="User" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
 	</context>
 </generatorConfiguration>
